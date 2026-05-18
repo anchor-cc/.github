@@ -1,5 +1,9 @@
 <p align="center">
-  <img src="./banner.png" alt="Anchor" width="600" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./banner-dark.png">
+    <source media="(prefers-color-scheme: light)" srcset="./banner-light.png">
+    <img alt="Anchor" src="./banner-light.png" width="600">
+  </picture>
 </p>
 
 <p align="center"><strong>The system of record for AI agents.</strong></p>

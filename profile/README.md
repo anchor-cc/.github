@@ -1,12 +1,6 @@
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./banner-dark.png">
-    <source media="(prefers-color-scheme: light)" srcset="./banner-light.png">
-    <img alt="Anchor" src="./banner-light.png" width="600">
-  </picture>
+  <img src="./banner.png" alt="Anchor — The system of record for AI agents" width="800">
 </p>
-
-<p align="center"><strong>The system of record for AI agents.</strong></p>
 
 <p align="center">A collaborative file system for humans and AI agents. MCP-native. Read, write, audit.</p>
 

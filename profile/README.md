@@ -2,8 +2,6 @@
   <img src="./banner.png" alt="Anchor — The system of record for AI agents" width="800">
 </p>
 
-<p align="center">A collaborative file system for humans and AI agents. MCP-native. Read, write, audit.</p>
-
 ---
 
 Anchor is a single-image CRUD platform with three first-class file types: documents, tables, and apps. Every operation goes through one permission model, one audit log, and one MCP surface, so any agent that speaks MCP (Claude, ChatGPT, Gemini, Codex) operates with the same access semantics as a human user.

@@ -1,40 +1,51 @@
 <p align="center">
-  <img src="./banner.png" alt="Anchor — The system of record for AI agents" width="800">
+  <img src="./logo.png" alt="Anchor logo" width="120">
 </p>
+
+<h1 align="center">Anchor</h1>
+
+<p align="center">The productivity toolkit for every AI agent.</p>
 
 ---
 
-Anchor is a single-image CRUD platform with three first-class file types: documents, tables, and apps. Every operation goes through one permission model, one audit log, and one MCP surface, so any agent that speaks MCP (Claude, ChatGPT, Gemini, Codex) operates with the same access semantics as a human user.
+The best return on AI spend comes from giving agents real tools to work with. Anchor is where your agents build documents, presentations, tables and apps that are organized, versioned and shareable with your team or with anyone outside it.
 
-## 🧱 Primitives
+Anchor works with whichever AI your team already uses. People keep the subscriptions they already pay for, use different agents for different jobs, and any agent can pick up where another left off.
 
-- **OTHER files.** Anything textable: PDFs, markdown, code, transcripts. Parsed on upload, indexed, MCP-readable via `read_file`.
-- **TABLE files.** Typed schemas with row-level access. Agents query with `query_table`, mutate with structured ops.
-- **APP files.** Executable JS bundles with persistent state and exported functions. Agents invoke them via `call_app_function`.
-- **Folders.** Per-folder ACLs. Private, hidden, temporary, and shared variants.
-- **Orgs.** Top-level container for billing, members, and audit retention.
+Anchor is built for organizations that need control. Everything lives in the folder and file structure people already know, with enterprise-grade permissions on every item. Every artifact knows what it was built from and what has been built on it, so the lineage keeps itself. You can share with teammates, clients and partners, each with exactly the access they need. Anchor can run in your own VPC or on-prem.
 
-## 🔌 MCP surface
+## What agents build in Anchor
 
-Every primitive is exposed through the [Model Context Protocol](https://modelcontextprotocol.io). Available tools: `ls`, `read_file`, `write_file`, `query_table`, `describe_table`, `call_app_function`, `unpack_app`, `build_app`, `file_upload_link`, and more. One connection, the agent inherits the user's full permission set.
+- Documents are expressive, versioned pages that an agent writes and a person can read, comment on and share.
+- Presentations are decks that an agent builds and anyone with access can present.
+- Tables are typed and queryable, so agents can run structured queries against them instead of parsing a spreadsheet.
+- Apps are interactive tools, such as trackers and dashboards, that an agent builds on top of Anchor tables and shares at a link.
+- Files hold everything else, including PDFs, transcripts and code, and agents can read them directly.
 
-## 🤖 Supported clients
+Email, calendar and other live sources can be connected so that agents work from current information.
 
-- Claude Desktop, Claude Code
-- ChatGPT (via Connectors)
-- Gemini CLI
-- Cursor
-- Codex
-- Any MCP-compatible client. See [anchor.cc/supported-agents](https://anchor.cc/supported-agents).
+## Supported agents
 
-## 🔗 Links
+Anchor connects to any agent that speaks the [Model Context Protocol](https://modelcontextprotocol.io). It is listed in the [ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6a206df34f6c8191a125958d061edd74) and [Claude](https://claude.ai/new#customize/connectors/id/3f388144-478e-469c-88d3-a0d984f6274b) directories, and it has setup guides for the following agents:
 
-- 🌐 [anchor.cc](https://anchor.cc)
-- 📘 [Docs](https://anchor.cc/docs)
-- 🔌 [MCP setup](https://anchor.cc/mcp)
-- 💼 [LinkedIn](https://www.linkedin.com/company/anchor-cc)
-- 🏢 [Crunchbase](https://www.crunchbase.com/organization/anchor-3cbe)
+- [Claude](https://anchor.cc/supported-agents/claude-web), [Claude Desktop](https://anchor.cc/supported-agents/claude-desktop) and [Claude Code](https://anchor.cc/supported-agents/claude-code)
+- [ChatGPT](https://anchor.cc/supported-agents/chatgpt)
+- [Codex](https://anchor.cc/supported-agents/codex) and [Codex Desktop](https://anchor.cc/supported-agents/codex-desktop)
+- [Gemini CLI](https://anchor.cc/supported-agents/gemini-cli)
+- [Open WebUI](https://anchor.cc/supported-agents/open-webui)
+- [OpenCode](https://anchor.cc/supported-agents/opencode)
+- [Any other MCP-compatible agent](https://anchor.cc/supported-agents/other)
 
-## 📧 Contact
+## Links
 
-[hello@anchor.cc](mailto:hello@anchor.cc) · New York, NY
+- [Website](https://anchor.cc)
+- [Use cases](https://anchor.cc/use-cases)
+- [Docs](https://anchor.cc/docs)
+- [MCP setup](https://anchor.cc/mcp)
+- [Pricing](https://anchor.cc/pricing)
+- [Blog](https://anchor.cc/blog)
+- [LinkedIn](https://www.linkedin.com/company/anchor-cc)
+
+## Contact
+
+You can reach us at [hello@anchor.cc](mailto:hello@anchor.cc). We are based in New York, NY.
